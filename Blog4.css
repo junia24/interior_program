@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Dancing+Script&family=Libre+Baskerville:ital@0;1&family=Quicksand:wght@300&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+   
+}
+body{
+    font-family: sans-serif;
+    background-image: url('nature.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    height:100vh;
+    background-position:center; 
+}
+
+/*Nav bar*/
+
+nav{
+    
+    height: 80px;
+    width:100%;
+    background-color: black;
+}
+label.logo{
+    color:rgb(232, 8, 127);
+    font-size: 3rem;
+    line-height:80px;
+    padding: 0 100px;
+    font-weight: bold;
+    font-family:'dancing script',sans-serif;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin:0 5px;
+}
+nav ul li a{
+    color:white;
+    font-size: 17px;
+    padding: 7px 13px;
+    
+}
+nav ul li a:hover{
+    color:white;
+    font-size: 17px;
+    padding: 7px 13px;
+    background-color: rgb(240, 6, 100);
+    box-shadow: 5px 5px rgb(163, 27, 82);
+    transition: 0.5s ease-in all;
+    
+}
+nav ul li a.active{
+    background-color: rgb(240, 6, 100);
+    box-shadow: 5px 5px rgb(163, 27, 82);
+}
+
+.checkbtn{
+    font-size: 30px;
+    color:bisque;
+    float:right;
+    line-height:80px ;
+    margin-right: 40px;
+    cursor:pointer;
+    display: none;
+}
+#check{
+    display:none;
+
+}
+
+  .header{
+    height: 370px;
+    width:100%;
+    background-image: url(https://images.unsplash.com/photo-1631679706909-1844bbd07221?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1992&q=80 );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 20% 65%;
+    background-blend-mode: darken;
+}
+.center-div {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px; 
+    left: 20%;
+    padding-top: 28%;
+    transform: translate(-50%,-50%);
+    font-size: 1.2rem;
+  }
+  #border-1{
+    position: absolute;
+    left:15%;
+    margin-top: 25%;
+    transform:translate(-50%,-50%); 
+    border-bottom: 3px solid rgb(240, 6, 100);
+    width:110px;
+
+  }
+/* Container - 4 */
+
+.container-4{
+    position: absolute;
+    top:100%;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;   
+    width: 100%; 
+    height:690px; 
+}
+
+.container-4-about2{
+    flex-basis:40%;    
+}
+#container-4-heading{
+   font-size: 2rem;
+   font-weight: bold;
+   color: rgb(240,6,100);
+}
+#border-2{
+    position: absolute;
+    border-bottom: 3px solid rgb(240, 185,6);
+    width:100px;
+    padding-top: 10px;
+  }
+#container-4-sub-title{
+    padding-top: 50px;
+    line-height: 2;
+    font-size: 1rem;
+}
+.container-4-about1{
+    flex-basis:30%; 
+}
+.about1-image{
+    width: 400px;
+    height:350px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 3px;
+    box-shadow: -45px -45px rgb(240,6,100);
+    background-image: url(https://images.unsplash.com/photo-1618220179428-22790b461013?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1854&q=80 );
+}
+ 
+    /*footer*/
+
+    .footer{
+        height:380px;
+        width:100%;
+        display:flex;
+        position: absolute;
+        top:110%;
+        background-color: black;
+        color:white;
+      }
+  
+      /*Left Box*/
+      .left-box{
+          height:320px;
+          width:34%;
+          color:white;
+          padding-left: 3%;
+      }
+  
+      /*font*/
+      .font1{
+          font-size: 1rem;
+          padding-top: 27px;
+          padding-left: 13px;
+      }
+  
+      .font2{
+          font-size: 1rem;
+          padding-top: 37px;
+          padding-left: 13px;
+          color:rgb(232, 8, 127) ;
+      }
+  
+      /*description*/
+      .des1{
+          font-size: 1rem;
+          padding-top: 25px;
+          padding-left: 5px;
+          color: white;
+          line-height: 1.7;
+      }
+      #border-3{
+          position: absolute;
+          left:5.5%;
+          padding-top: 27px;
+          transform:translate(-50%,-50%); 
+          border-bottom: 3px solid rgb(240, 6, 100);
+          width:40px;
+          }
+  
+  
+      /*Middle box*/
+  
+      .middle-box{
+          height:320px;
+          width:33%;
+          color:white;
+          padding-left: 4%;
+      }
+     
+      /*font*/
+      .font3{
+          font-size: 1rem;
+          padding-top: 27px;
+          padding-left: 13px;
+      }
+  
+      /*description*/
+      .des2{
+          font-size: 1rem;
+          padding-top: 36px;
+          padding-left: 13px;
+          color:white;
+          line-height: 2.3;
+          font-size: 1rem;
+      }
+      #border-4{
+          position: absolute;
+          left:40.6%;
+          padding-top: 27px;
+          transform:translate(-50%,-50%); 
+          border-bottom: 3px solid rgb(240, 6, 100);
+          width:40px;
+          }
+  
+  
+      /*Right box*/
+      .right-box{
+          height:320px;
+          width:33%;
+          color:white;
+          padding-left: 5.5%;
+      }
+  
+      
+      /*font*/
+      .font4{
+          font-size: 1rem;
+          padding-top: 27px;
+          padding-left: 10px;
+      }
+  
+      /*description*/
+      .des3{
+          font-size: 1rem;
+          padding-top: 40px;
+          padding-left: 10px;
+          color:white;
+          line-height:2.3;
+      }
+      #border-5{
+          position: absolute;
+          left:75.3%;
+          padding-top: 27px;
+          transform:translate(-50%,-50%); 
+          border-bottom: 3px solid rgb(240, 6, 100);
+          width:50px;
+          }
+  
+      .footer1{
+        height:50px;
+          width:100%;
+          background-color: black;
+          position: absolute;
+          display: flex;
+          margin-top: 330px;
+          border-top: 1px solid rgb(232, 8, 127) ;
+          color:white;
+      }
+      .font5{
+        font-size: 13px;
+          padding-left: 40%;
+          padding-top:1.5%;
+      }
+      
